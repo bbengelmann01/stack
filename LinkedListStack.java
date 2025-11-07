@@ -1,3 +1,5 @@
+import java.util.LinkedList;
+
 public class LinkedListStack {
     LinkedList<Integer> elements;
 
