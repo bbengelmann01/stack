@@ -3,12 +3,12 @@ import java.util.LinkedList;
 public class LinkedListStack {
     LinkedList<Integer> elements;
 
-    public ArrayListStack() {
+    public LinkedListStack() {
         elements = new LinkedList<Integer>();
     }
 
     public void push(int el) {
-        elements.add(0);
+        elements.add(0, el);
     } 
 
     public void pop() {
@@ -16,7 +16,7 @@ public class LinkedListStack {
     }
 
     public int peek() {
-        elements.get(0);
+        return elements.get(0);
     }
 
     public boolean isEmpty() {

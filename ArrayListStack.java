@@ -12,11 +12,11 @@ public class ArrayListStack {
     } 
 
     public void pop() {
-        elements.remove(elements.size() - 1);
+        elements.remove(elements.size()-1);
     }
 
     public int peek() {
-        elements.get(elements.size() - 1);
+        return elements.get(elements.size() - 1);
     }
 
     public boolean isEmpty() {
